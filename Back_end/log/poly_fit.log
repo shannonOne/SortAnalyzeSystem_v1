@@ -1,0 +1,95 @@
+
+--------------- Regression analysis of bubble_sort ---------------
+seq_len shape:(300,)
+comp_count shape:(300,)
+move_count shape:(300,)
+********************** Analysis of comparing **********************
+coefficients:[ 5.00000000e-01 -5.00000000e-01 -9.02510487e-14]
+2-order polynomial:
+     2
+0.5 x - 0.5 x - 9.025e-14
+the RMSE of poly_fit_comp:1.3865422408010714e-13
+y=a(x**2)+bx+c  a=0.5, b=-0.5, c=-0.0
+********************** Analysis of moving **********************
+coefficients:[ 0.23602813 -0.09010567 -0.8258716 ]
+2-order polynomial:
+       2
+0.236 x - 0.09011 x - 0.8259
+the RMSE of poly_fit_move:18.07608564951207
+y=a(x**2)+bx+c  a=0.24, b=-0.09, c=-0.83
+
+--------------- Regression analysis of quick_sort ---------------
+seq_len shape:(300,)
+comp_count shape:(300,)
+move_count shape:(300,)
+********************** Analysis of comparing **********************
+coefficients:[  0.05187709   3.08390156 -10.19875973]
+2-order polynomial:
+         2
+0.05188 x + 3.084 x - 10.2
+the RMSE of poly_fit_comp:9.570594920581083
+y=a(x**2)+bx+c  a=0.05, b=3.08, c=-10.2
+********************** Analysis of moving **********************
+coefficients:[ 0.02518274  1.04645717 -2.90182266]
+2-order polynomial:
+         2
+0.02518 x + 1.046 x - 2.902
+the RMSE of poly_fit_move:5.474975113868919
+y=a(x**2)+bx+c  a=0.03, b=1.05, c=-2.9
+
+--------------- Regression analysis of select_sort ---------------
+seq_len shape:(300,)
+comp_count shape:(300,)
+move_count shape:(300,)
+********************** Analysis of comparing **********************
+coefficients:[ 5.00000000e-01 -5.00000000e-01 -9.02510487e-14]
+2-order polynomial:
+     2
+0.5 x - 0.5 x - 9.025e-14
+the RMSE of poly_fit_comp:1.3865422408010714e-13
+y=a(x**2)+bx+c  a=0.5, b=-0.5, c=-0.0
+********************** Analysis of moving **********************
+coefficients:[ 4.46047076e-17  1.00000000e+00 -1.00000000e+00]
+2-order polynomial:
+          2
+4.46e-17 x + 1 x - 1
+the RMSE of poly_fit_move:1.1617269610436071e-14
+y=a(x**2)+bx+c  a=0.0, b=1.0, c=-1.0
+
+--------------- Regression analysis of merge_sort ---------------
+seq_len shape:(300,)
+comp_count shape:(300,)
+move_count shape:(300,)
+********************** Analysis of comparing **********************
+coefficients:[ 0.04807971  2.50633134 -6.70384852]
+2-order polynomial:
+         2
+0.04808 x + 2.506 x - 6.704
+the RMSE of poly_fit_comp:2.1178917513016273
+y=a(x**2)+bx+c  a=0.05, b=2.51, c=-6.7
+********************** Analysis of moving **********************
+coefficients:[ 0.03191393  1.56926377 -2.60997636]
+2-order polynomial:
+         2
+0.03191 x + 1.569 x - 2.61
+the RMSE of poly_fit_move:4.7627640999239
+y=a(x**2)+bx+c  a=0.03, b=1.57, c=-2.61
+
+--------------- Regression analysis of insert_sort ---------------
+seq_len shape:(300,)
+comp_count shape:(300,)
+move_count shape:(300,)
+********************** Analysis of comparing **********************
+coefficients:[ 5.00000000e-01 -5.00000000e-01 -9.02510487e-14]
+2-order polynomial:
+     2
+0.5 x - 0.5 x - 9.025e-14
+the RMSE of poly_fit_comp:1.3865422408010714e-13
+y=a(x**2)+bx+c  a=0.5, b=-0.5, c=-0.0
+********************** Analysis of moving **********************
+coefficients:[ 0.23369071  0.12518562 -1.80252324]
+2-order polynomial:
+        2
+0.2337 x + 0.1252 x - 1.803
+the RMSE of poly_fit_move:16.527000328866656
+y=a(x**2)+bx+c  a=0.23, b=0.13, c=-1.8

@@ -1,0 +1,74 @@
+bubble sort: sorted seq:[], compare_count=0, move_count=0
+select sort: sorted seq:[], compare_count=0, move_count=0
+insert sort: sorted seq:[], compare_count=0, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1, 9], compare_count=1, move_count=0
+quick sort: sorted seq:[1, 9], compare_count=1, move_count=0
+select sort: sorted seq:[1, 9], compare_count=1, move_count=0
+merge sort: sorted seq:[1, 9], compare_count=1, move_count=0
+insert sort: sorted seq:[1, 9], compare_count=1, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+quick sort: sorted seq:[1, 4, 9], compare_count=2, move_count=1
+select sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+merge sort: sorted seq:[4, 9], compare_count=1, move_count=2
+merge sort: sorted seq:[1, 4, 9], compare_count=2, move_count=2
+insert sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+bubble sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+quick sort: sorted seq:[1, 4, 9], compare_count=2, move_count=1
+select sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+merge sort: sorted seq:[4, 9], compare_count=1, move_count=2
+merge sort: sorted seq:[1, 4, 9], compare_count=2, move_count=2
+insert sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+heap sort: sorted seq:[1, 9, 4], compare_count=2, move_count=3
+bubble sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+quick sort: sorted seq:[1, 4, 9], compare_count=2, move_count=1
+select sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+merge sort: sorted seq:[4, 9], compare_count=1, move_count=2
+merge sort: sorted seq:[1, 4, 9], compare_count=2, move_count=2
+insert sort: sorted seq:[1, 4, 9], compare_count=3, move_count=1
+bubble sort: sorted seq:[1, 9], compare_count=1, move_count=0
+quick sort: sorted seq:[1, 9], compare_count=1, move_count=0
+select sort: sorted seq:[1, 9], compare_count=1, move_count=0
+merge sort: sorted seq:[1, 9], compare_count=1, move_count=0
+insert sort: sorted seq:[1, 9], compare_count=1, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1, 9], compare_count=1, move_count=0
+quick sort: sorted seq:[1, 9], compare_count=1, move_count=0
+select sort: sorted seq:[1, 9], compare_count=1, move_count=0
+merge sort: sorted seq:[1, 9], compare_count=1, move_count=0
+insert sort: sorted seq:[1, 9], compare_count=1, move_count=0
+merge sort: sorted seq:[1, 9], compare_count=1, move_count=0
+quick sort: sorted seq:[1, 9], compare_count=1, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+quick sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+quick sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+bubble sort: sorted seq:[1], compare_count=0, move_count=0
+quick sort: sorted seq:[1], compare_count=0, move_count=0
+select sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+insert sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
+merge sort: sorted seq:[1], compare_count=0, move_count=0
